@@ -7,7 +7,7 @@ from typing import Any, Union, List
 import torch
 from PIL import Image
 from torchvision.transforms import Compose, Resize, CenterCrop, ToTensor, Normalize
-from tqdm import tqdm
+from tqdm.notebook import tqdm
 
 from .model import build_model
 from .simple_tokenizer import SimpleTokenizer as _Tokenizer
